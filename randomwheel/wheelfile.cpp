@@ -27,7 +27,6 @@ void createWheel() {
         probability = std::stoi(probStr);
         values.push_back(value);
         probabilities.push_back(probability);
-        std::cout << std::stoi(probStr);
         probSum += std::stoi(probStr);
         if (probSum > 100) {
             std::cout << "the summed probabilities equal to more than a 100, deleting this wheel..." << std::endl;
